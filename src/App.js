@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About/About';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Programmes from './components/Programmes/Programmes';
+import Titre from './components/Titre/Titre';
+import Temoignages from './components/Temoignages/Temoignages';
+import Universite from './components/Universites/Universite';
+import Contact from './components/Contacts/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <div className='container'>
+        <Titre sousTitre='Ce que nous offrons' titre='Notre programme'/>
+        <Programmes />
+        <About />
+        <Titre sousTitre='Gallery' titre='Campus photo'/>
+        <Universite />
+        <Titre sousTitre='Témoignages' titre="ce que dit l'étudiant"/>
+        <Temoignages />
+        <Titre sousTitre='Contactez-Nous' titre="Prendre contact"/>
+        <Contact />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,98 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.contact-col h3 {
+    margin-top: -145px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000F38;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col h3 img {
+    width: 35px;
+    margin-left: 10px;
+}
+.contact-col p {
+    max-width: 450px;
+    list-style: 0.3;
+}
+.contact-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+
+
+.contact-col form {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+}
+
+.contact-col label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.contact-col input:focus,
+.contact-col textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.contact-col .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-col .btn:hover {
+    background: #0056b3;
+}
+
+.contact-col .btn img {
+    margin-left: 8px;
+}
+
+.contact-col span {
+    display: block;
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
