@@ -42,3 +42,14 @@
     opacity: 1;
     padding-top: 0;
 }
+
+/* Responsiveness */
+@media (max-width: 650px) {
+    .programmes {
+        flex-direction: column;
+    }
+    .programme {
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

@@ -40,3 +40,16 @@ a{
   background-color: #212AE0;
   color: #FFF;
 }
+
+
+/* rendre notre site responsive */
+
+@media (max-width: 1000px){
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .btn{
+      padding: 14px;
+    }
+}

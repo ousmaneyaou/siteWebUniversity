@@ -96,3 +96,17 @@
     font-style: italic;
     color: #555;
 }
+
+/* Responsiveness */
+@media (max-width: 700px){
+    .contact{
+        display: block;
+        padding: 70px 0;
+    }
+    .contact-col {
+        padding: 20px;
+    }
+    .slide p {
+        font-size: 12px;
+    }
+}
