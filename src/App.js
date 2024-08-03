@@ -7,6 +7,7 @@ import Titre from './components/Titre/Titre';
 import Temoignages from './components/Temoignages/Temoignages';
 import Universite from './components/Universites/Universite';
 import Contact from './components/Contacts/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Temoignages />
         <Titre sousTitre='Contactez-Nous' titre="Prendre contact"/>
         <Contact />
+        <Footer />
       </div>
     </div>
   );
